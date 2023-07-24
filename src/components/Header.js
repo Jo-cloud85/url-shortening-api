@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="header max-w-4xl px-5 2xl:px-0 lg:mx-auto lg:max-w-5xl xl:max-w-6xl py-5">
+      <header className="header max-w-4xl px-5 2xl:px-0 lg:mx-auto lg:max-w-5xl py-10">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img src={logo} alt="Company Logo" />

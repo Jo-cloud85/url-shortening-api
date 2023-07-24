@@ -6,7 +6,7 @@ const Advanced = () => {
   return (
     <>
       <section className="bg-gray-100 pt-52 lg:pt-40 pb-10 lg:pb-40">
-        <div className="max-w-4xl px-5 2xl:px-0 lg:mx-auto lg:max-w-5xl xl:max-w-6xl">
+        <div className="max-w-4xl px-5 2xl:px-0 lg:mx-auto lg:max-w-5xl">
           <h2 className="text-4xl font-bold text-slate-800 mb-3 text-center">Advanced Statistics</h2>
           <p className="text-slate-400 text-center mb-10 lg:mb-20">Track how your links are performing across the web <br />with our advanced statistics dashboard.</p>
           <div className="relative card grid grid-cols-1 gap-5 lg:grid-cols-3">

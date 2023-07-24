@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-slate-900 py-10 lg:py-20 text-center md:text-left">
-        <div className="max-w-4xl px-5 2xl:px-0 lg:mx-auto lg:max-w-5xl xl:max-w-6xl grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-6">
+        <div className="max-w-4xl px-5 2xl:px-0 lg:mx-auto lg:max-w-5xl grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-6">
           <div className="grid place-content-center md:place-content-start md:col-span-2">
             <img src={logoFooter} alt="Company Logo"/>
           </div>
