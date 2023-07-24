@@ -64,7 +64,7 @@ const Shortener = () => {
 
   return (
     <>
-      <section className="shortener mx-5 max-w-4xl 2xl:px-0 md:mx-auto lg:max-w-5xl xl:max-w-6xl">
+      <div className="shortener mx-5 max-w-4xl 2xl:px-0 md:mx-auto lg:max-w-5xl xl:max-w-6xl">
         <picture>
           <source media="(min-width: 768px)" srcSet={shortenerDesktop} />
           <img src={shortenerMobile} alt="Shortener"/>
@@ -111,7 +111,7 @@ const Shortener = () => {
               </article>
             </div>
         ))}
-      </section>
+      </div>
     </>
   )
 }

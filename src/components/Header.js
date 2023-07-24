@@ -9,8 +9,8 @@ const Header = () => {
     <>
       <header className="header max-w-4xl px-5 2xl:px-0 lg:mx-auto lg:max-w-5xl xl:max-w-6xl py-5">
         <div className="flex items-center justify-between">
-          <article className="flex items-center">
-            <img src={logo} alt="Compoany Logo" />
+          <div className="flex items-center">
+            <img src={logo} alt="Company Logo" />
             <nav className="hidden md:block md:ml-4">
               <ul className="flex items-start justify-start"> 
                 <li className="my-5 md:my-0 md:mx-4">
@@ -24,7 +24,7 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-          </article>
+          </div>
 
           {isOpen && (
             <div className="absolute left-5 right-5 top-20 rounded bg-slate-900 text-slate-200 text-center py-10 
